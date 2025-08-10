@@ -1,0 +1,6 @@
+_id,name,email,password,role,createdAt,updatedAt,__v,address
+6894b504ef021cb0c7f72635,John Doe,john@example.com,$2b$10$WM6meDNz4pjEJDgOa5nRrOMJxsganZq4.cyQJCCPd8bHbeh/dr3f6,user,2025-08-07T14:15:32.497Z,2025-08-08T18:52:50.237Z,0,
+6896e8b6440d6aca072ff49a,Admin User,admin@example.com,$2b$10$ys/JEQCDFaBD/hnR.2ouG.ULZdAPrZBKNz0IUGy11s1Nn/mbDyOSK,admin,2025-08-09T06:20:39.024Z,2025-08-09T06:20:39.024Z,0,
+689757168560f7f13e523e67,Rohit Adhari,rohitadhari14802@gmail.com,$2b$10$bnG6zZob0WpqAZYFN.sxo.L5n.88A9zgERedwH2poKVVP8OoNJYhO,user,2025-08-09T14:11:34.088Z,2025-08-09T14:11:34.088Z,0,Taleghar
+689785998560f7f13e523e8c,Priya Verma,priya.verma@example.com,$2b$10$TjXgh2F9LYIBrRyY9cHx3uLrOZwKQPy/faBnNLXkDSIzZ486QUBAq,store_owner,2025-08-09T17:30:01.638Z,2025-08-09T17:30:01.638Z,0,"22 Park Street, Kolkata, West Bengal, 700016"
+689831590849fa85c9a05ab9,Rohit Talape,rohittalape14802@gmail.com,$2b$10$/2LHYvFQ6z8hjmWWha4h9e899HO2VXWoGfiJh8ZI/wo21wxjaW0Xe,store_owner,2025-08-10T05:42:49.584Z,2025-08-10T05:42:49.584Z,0,Taleghar
