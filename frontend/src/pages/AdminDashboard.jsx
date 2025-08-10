@@ -16,7 +16,6 @@ const AdminDashboard = () => {
         const users = await getAllUsers();
         const stores = await getStores();
         const ratings = await getAllRatings();
-        console.log(users, stores, ratings);
 
         setStats({
           totalUsers: users.length,
