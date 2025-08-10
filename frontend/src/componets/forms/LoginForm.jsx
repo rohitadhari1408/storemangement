@@ -17,7 +17,17 @@ export default function LoginForm() {
       const { token, user } = await login(email, password);
       localStorage.setItem("token", token);
       localStorage.setItem("user", JSON.stringify(user));
-      navigate("/dashboard"); // Redirect after login
+
+
+      if (user.role === "admin") {
+      navigate("/dashboard/admin");
+    } else if (user.role === "user") {
+      navigate("/dashboard/user/stores");
+    } else if (user.role === "store_owner") {
+      navigate("/dashboard/owner");
+    } else {
+      navigate("/dashboard"); // fallback
+    }// Redirect after login
     } catch (err) {
       setError(err.response?.data?.message || "Invalid credentials");
     }
